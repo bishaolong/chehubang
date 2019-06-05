@@ -206,8 +206,10 @@
             margin-top: .1875rem;
             text-align: center;
             a{
+                display: inline-block;
                 font-size: .4375rem;
                 color: #ffe5c2;
+                line-height: 1.296875rem;
             }
         }
     }
@@ -218,18 +220,22 @@
         text-align: center;
         line-height: 1.5625rem;
         background: #fca738;
+        // padding-top: 0.390625rem;
+        box-sizing: border-box;
         position: fixed;
         left: 0;
         bottom: 0;
         a{
             display:block;
             flex: 1;
+            padding-top: 0.2rem;  
+            box-sizing: border-box; 
         }
         a:nth-child(1){
             background: #ffe5c2;
             img{
                 width: .703125rem;
-                height: .796875rem;
+                height: 0.71875rem;
             }
         }
         a:nth-child(2){
@@ -241,7 +247,7 @@
         a:nth-child(3){
             img{
                 width: 1.28125rem;
-                height: .8125rem;
+                height: .625rem;
             }
         }
     }
